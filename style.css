@@ -22,14 +22,14 @@ body{
 
 }   
 
-.half-width a{
+#btn{
 
-    text-decoration: none;
-    background:#E02C6D;
-    color: azure;
-    padding: 10px 24px;
-
+  text-decoration: none;
+  background:#E02C6D;
+  color: azure;
+  padding: 10px 24px;
 }
+
 .banner img{
 
     width: 556.01px;
@@ -55,8 +55,7 @@ body{
       display: grid;
       grid-template-columns: repeat(3,1fr);
       margin-top: 70px;
-      justify-content: center;
-      align-items: center; 
+    
 
     }
 
@@ -90,54 +89,69 @@ body{
 
 /* start of third part */
 
-section{
+.third-section{
 
   display: flex;
+  justify-content: center;
+  margin-top: 165px;
+  margin-right: 69px;
+  
+ 
 
 }
 
 .highlights{
-  width: 50%;
+  width: 30%;
+  margin: 69px;
+  margin-left: 182px;
+ 
   
+ 
 }
+.highlights h1{
+  
+      font-size:48px
+    }
+
+    .highlights p{
+
+        width: 80%;
+      margin-top: -20px;
+      color: dimgray;
+
+    }
 
 .highlights-img img{
 
   width: 567px;
   height: 427px;
+  margin-right: 69px;
   
 }
 
 
 /* footer */
 
-footer{
-    display: flex;
-  justify-content: center;
-  align-items: center;
+
+.footer{
+margin-top: 158px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;  
+
 }
 
+.footer-icon{
 
-
-
-
-
+  font-size: 2em;  
+}
 
 footer img{
 
-  width: 483.87px;
-  height: 110px;
+    width: 483.87px;
+    height: 110px;
+
+  }
 
 
-}
-
-.icon{
-justify-content: space-around;
-
-}
-footer p{
-
-  margin-top: 3%;
-  text-align: center;
-  justify-content: space-around;
-}
