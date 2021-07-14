@@ -216,19 +216,68 @@ footer img{
 /* mobile display */
 
   @media screen and (max-width: 700px) {
+  .first-part{
 
-       
+  width: 100%;
 
-        .players{
+      }
+  .tittle{
+    grid-template-columns: repeat(1,1fr);
+    flex-direction: column;
+    transform: translateX(-30%);
+    margin-top: -47%;
+        
 
-      grid-template-columns: repeat(1,1fr);
-      width: 100%;
+      }
+  .half-width h1{
+  font-size: 120%;
+
+      }
+.banner img{
+  grid-template-columns: repeat(1,1fr);
+  flex-direction: column;
+  transform: translateX(-260%);
+   width: 300px;
+   height: 280px;
+    margin-top: 60%;
+  }
+
+ .players{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
 
 
     }
 
-   
-  
-      
-  }
 
+    .third-section{
+
+        
+      grid-template-columns: repeat(1,1fr);
+        width: 500%;
+      flex-direction: column;
+      transform: translateX(auto);
+
+
+    }
+  
+      .third-section h1{
+
+        transform: translateX(-37%);
+
+      }
+
+
+      .third-section p{
+
+        transform: translateX(-45%);
+      }
+  
+        .bonus{
+
+            flex-direction: column;
+
+
+        }
+
+  }
