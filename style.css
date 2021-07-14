@@ -7,17 +7,18 @@ body{
 }
 /* first part */
 .first-part{
-        background:#2D25A0;
+    background:#2D25A0;
     display: flex;
 
 }
 
 .half-width{
 
-        width: 18%;
-        color: white;
-      padding: 207px 156px;
+        
+      color: white;
+      margin: 156px 207px;
       font-size: 20px;
+      font-size: 30px;
 
 
 }   
@@ -28,16 +29,24 @@ body{
   background:#E02C6D;
   color: azure;
   padding: 10px 24px;
+  font-size: 20px;
 }
 
 .banner img{
 
     width: 556.01px;
     height: 438px;
-    margin-top: 120px;
-    margin-left: 250px;
+    margin-top: 153px;
+    margin-left: 200px;
   }
 
+  .banner:hover{
+
+    transform: rotate(40deg);
+    transform-origin: top right;
+    transition: transform 1s ease-in;
+
+  }
 
   /* first part end */
 
@@ -48,6 +57,7 @@ body{
       display: flex;
       justify-content: space-around;
       align-items: center;
+    
 
   }
 
@@ -110,7 +120,8 @@ body{
 }
 .highlights h1{
   
-      font-size:48px
+      font-size:48px;
+      margin-top: -10px;
     }
 
     .highlights p{
@@ -138,6 +149,8 @@ body{
   justify-content: center;
   align-items: center;
   margin-left: 10%;
+
+
  }
  .bonus-image{
         
@@ -146,9 +159,18 @@ body{
   height: 310px;
   padding: 15px;
   margin: 15px;
+  
 
  }
 
+ .bonus-image img:hover{
+
+        transform: scale(1.1);
+        overflow: hidden;
+       
+        transition: 0.5s ease-in;
+ 
+      }
 
 
 .bonus-image img{
@@ -193,9 +215,20 @@ footer img{
 
 /* mobile display */
 
-@media only screen and(max-width:688px){
-      .half-width{
-          background-color: crimson;
-         
-      } 
-}
+  @media screen and (max-width: 700px) {
+
+       
+
+        .players{
+
+      grid-template-columns: repeat(1,1fr);
+      width: 100%;
+
+
+    }
+
+   
+  
+      
+  }
+
